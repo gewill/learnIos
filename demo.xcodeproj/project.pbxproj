@@ -44,6 +44,7 @@
 		0ED07E662A62778E004BB7D5 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED07E6A2A62778E004BB7D5 /* cairongquanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cairongquanUITests.swift; sourceTree = "<group>"; };
 		0ED07E6C2A62778E004BB7D5 /* cairongquanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cairongquanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BED5BCA22A62F32300961EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +80,9 @@
 				0ED07E692A62778E004BB7D5 /* cairongquanUITests */,
 				0ED07E4D2A62778C004BB7D5 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		0ED07E4D2A62778C004BB7D5 /* Products */ = {
 			isa = PBXGroup;
@@ -94,6 +97,7 @@
 		0ED07E4E2A62778C004BB7D5 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				BED5BCA22A62F32300961EC8 /* Info.plist */,
 				0ED07E4F2A62778C004BB7D5 /* cairongquanApp.swift */,
 				0ED07E512A62778C004BB7D5 /* ContentView.swift */,
 				0ED07E532A62778D004BB7D5 /* Assets.xcassets */,
@@ -420,6 +424,7 @@
 				DEVELOPMENT_TEAM = 4WWY97475C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +454,7 @@
 				DEVELOPMENT_TEAM = 4WWY97475C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
