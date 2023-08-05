@@ -4,6 +4,7 @@ struct NewsList: Decodable {
     var items: [NewListItem]
 
     struct NewListItem: Decodable {
+        var _id: String
         var id: Int
         var content: String
         var cover: String
@@ -13,6 +14,7 @@ struct NewsList: Decodable {
         var created_at:Int
 
         private enum CodingKeys: String, CodingKey {
+            case _id
             case id
             case content
             case cover

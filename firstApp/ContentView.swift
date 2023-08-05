@@ -94,9 +94,9 @@ extension ContentView {
     func footerAction(){
         self.footerRefreshing = true
         print("target")
-//        viewModel.getNewListData(id: "",_action: {
-//            self.footerRefreshing = false
-//        })
+        viewModel.getNewListData(id: viewModel.newsList?.last?._id ?? "", _action: {
+            self.footerRefreshing = false
+        })
     }
     
     // 类型转换 赋值
